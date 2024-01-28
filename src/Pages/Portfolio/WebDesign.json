@@ -1,0 +1,41 @@
+[
+    {
+        "id": "1",
+        "name": "Breath of Fresh Nurses",
+        "images": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1679697148/Web-desgn-portfolio/Breath_scsuvc.png"
+       
+    },
+    {
+        "id": "2",
+        "name": "Africa Trade Finance",
+        "images": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1679697148/Web-desgn-portfolio/AFT_dyhd2g.png"
+        
+    },
+    {
+        "id": "3",
+        "name": "Emaan International",
+        "images": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1679697148/Web-desgn-portfolio/emaan_f5zt4t.png"
+        
+    
+    },
+    {
+        "id": "4",
+        "name": "Al Othman Office Tower",
+        "images": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1679697147/Web-desgn-portfolio/Office_biqful.jpg"
+        
+       
+    },
+    {
+        "id": "5",
+        "name": "Al Othman Holding",
+        "images": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1679697147/Web-desgn-portfolio/Othman_e619eq.jpg"
+        
+       
+    },
+    {
+        "id": "6",
+        "name": "Ottoman Hotel",
+        "images": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1679697147/Web-desgn-portfolio/Hotel_ebu8qr.jpg"     
+       
+    }
+]

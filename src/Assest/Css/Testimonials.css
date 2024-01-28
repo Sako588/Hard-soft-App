@@ -1,0 +1,73 @@
+
+.testimonials-section{
+    height: 600px;
+    background-position: center;
+ background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)) ,url('../Img/Testimonials/testimonialbg.jpg');
+
+}
+
+.testimonials-sides{
+max-width: 1100px;
+margin: 0 auto;
+padding: 3rem 1rem;
+}
+
+.testimonials-sides .left-side{
+    max-width: 500px;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.testimonials-sides .left-side p{
+    color: rgb(86, 86, 86);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+
+.testimonials-sides .left-side h6{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.testimonials-sides .left-side span{
+    color: rgb(86, 86, 86);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+
+.testimonials-sides .left-side button{
+    width: 100%;
+    background: var(--red);
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    border: none;
+    padding: 1rem;
+    margin-top: 5rem;
+
+}
+
+@media (max-width:768px) {
+
+    .testimonials-sides{
+        
+        padding: 0;
+        }
+    .testimonials-sides .left-side p{
+        
+        font-size: 1rem;
+        line-height: 1.2rem;
+       
+    }
+
+    .testimonials-sides .left-side button{
+      
+        margin-top: 2rem;
+    
+    }
+}

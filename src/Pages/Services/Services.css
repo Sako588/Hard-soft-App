@@ -1,0 +1,195 @@
+.link-bold {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.services-pages {
+    position: relative;
+    left: 0;
+    margin-top: 200px;
+    transition: all 0.6s ease;
+}
+
+.margin-left {
+    opacity: 0.2;
+    left: 245px;
+
+}
+
+.services-aside {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    color: var(--gray);
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    overflow: hidden;
+
+}
+
+.services-aside .services-right{
+    overflow-y: hidden;
+}
+
+
+.services-aside .services-right h3 {
+    padding-left: 2rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.services-aside .services-right h5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.services-aside .services-right p {
+    max-width: 800px;
+    line-height: 1.5rem;
+    padding: 1.5rem 0;
+    padding-top: 0.5rem;
+}
+
+.services-aside .services-right p a {
+    color: var(--red);
+}
+
+.services-aside .services-right .service-images {
+    max-width: 800px;
+    padding-bottom: 1rem;
+}
+
+.services-aside .services-right .service-images img {
+    width: 100%;
+}
+
+.services-aside .services-right .btn-service {
+    text-align: center;
+    padding: 1rem 0;
+    overflow: hidden;
+   
+}
+
+.services-aside .services-right .btn-web-desgn {
+    background: var(--red);
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+
+}
+
+.services-aside .services-right .btn-service a {
+    color: var(--white);
+}
+
+.services-aside .services-right .btn-get-contact {
+    width: 100%;
+    background: var(--red);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+.services-aside .services-right ul {
+    list-style: circle;
+    list-style-position: inside;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.services-aside .services-right ul li {
+    padding: 0.5rem 0;
+}
+
+
+.mobile-service-nav {
+    display: none;
+}
+
+.aktiv-service-menu {
+    left: 0;
+}
+
+.btns-nav {
+    display: none;
+}
+
+
+@media (max-width:900px) {
+
+    
+
+    .services-pages {
+
+        margin-top: 64px;
+
+    }
+    .services-aside .services-right a {
+       font-size: 0.8rem;
+    }
+    .services-aside .services-right .btn-get-contact {
+       
+        padding: 0.5rem 1rem;
+        
+    }
+
+    .left-nav {
+        display: none;
+    }
+
+
+    .mobile-service-nav {
+        display:flex;
+        align-items: center;
+        background: var(--dark-grey);
+        position: fixed;
+        z-index: 1;
+        left: -245px;
+        top: 0;
+        padding-left: 5px;
+        width: 246px;
+        height: 100vh;
+        transition: all 0.6s ease;
+    }
+
+    .aktiv-service-menu {
+        left: 0;
+
+    }
+
+
+    .btns-nav {
+        text-align: center;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        
+
+    }
+
+    .mobil-btn-menu {
+        cursor: pointer;
+        display: block;
+    
+    }
+
+
+
+    .btns-nav button {
+        pointer-events: none;
+        border: none;
+        font-size: 1.8rem;
+        padding: 4px 6px;
+        border-radius: 10px;
+        color: var(--red);
+    }
+
+
+    .mobil-btn-cross {
+        cursor: pointer;
+        display: none;
+    }
+}

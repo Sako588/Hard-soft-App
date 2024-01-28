@@ -1,0 +1,82 @@
+[
+    {
+        
+        "images": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680474288/Blog/UR-Case_s8prl4.png",
+        "month": "May",
+        "day": "17",
+        "header": "UR Case Study: Launch of an Idea",
+        "information": "The Idea: The main idea of UR (Universal Restaurant) came on my plate on around 2 years ago, this..."
+    },
+    {
+        "id": 2,
+        "images": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680474286/Blog/need_kyc135.png",
+        "month": "May",
+        "day": "15",
+        "header": "7 Main Signs That You Need a Website Redesign",
+        "information": "When was the last time you had a website redesign? Websites need revamps every now and then, and in..."
+    },
+    {
+        "id": 3,
+        "images": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680474287/Blog/Best_smcjdz.jpg",
+        "month": "Feb",
+        "day": "03",
+        "header": "What are the Best Woocommerce Plugins for Your Ecommerce Website?",
+        "information": "In previous articles I mentioned why Woocommerce is the ideal ecommerce solution for your online shop. In this article,..."
+    },
+    {
+        "id": 4,
+        "images": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680474287/Blog/Why-Woocommerce-for-Ecommerce-450x231_kvwxlv.png",
+        "month": "Jan",
+        "day": "25",
+        "header": "Why Woocommerce for Ecommerce?",
+        "information": "With over 4 million active installs, Woocommerce is one of the best ecommerce solutions for any retail business, whether..."
+    },
+    {
+        "id": 5,
+        "images": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680474288/Blog/Setup-Online-Shop-for-Retail-Business8-450x231_yrgdwf.png",
+        "month": "Jan",
+        "day": "12",
+        "header": "Setup an Online Shop for your Retail Business",
+        "information": "Get Started If you have a retail business providing products and goods, the first thing that will help you make..."
+    },
+    {
+        "id": 6,
+        "images": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680474286/Blog/2018-Web-Design-450x231_nnwooq.png",
+        "month": "Dec",
+        "day": "17",
+        "header": "What was unique in our 2018 web design",
+        "information": "As we near the end of 2018, I would like a look back to our 2018 web design projects...."
+    },
+    {
+        "id": 7,
+        "images": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680474286/Blog/Make-an-App-for-Online-Shops-450x231_snq3ub.jpg",
+        "month": "Nov",
+        "day": "08",
+        "header": "Tmreya Case Study: Make an App for Online Shops",
+        "information": "In this article, I would like to introduce you to one of our latest mobile app projects where we..."
+    },
+    {
+        "id": 8,
+        "images": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680474286/Blog/best-ecommerce-payment-gateways-for-the-Middle-East--450x231_ts4ibu.jpg",
+        "month": "Nov",
+        "day": "01",
+        "header": "Best Ecommerce Payment Gateways for Middle East Countries",
+        "information": "In the past years, our teams had the privilege to work with a lot of clients in the Middle..."
+    },
+    {
+        "id": 9,
+        "images": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680474286/Blog/secure-your-business-website-450x231_stedfn.jpg",
+        "month": "June",
+        "day": "17",
+        "header": "8 Ways to Secure your Business Website",
+        "information": "n this article we will be discussing the importance of securing your website, to protect it from hackers and..."
+    },
+    {
+        "id": 10,
+        "images": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680474285/Blog/Desert-Grove-Case-Study-450x231_erkiia.jpg",
+        "month": "June",
+        "day": "05",
+        "header": "Case Study: Desert Grove Database MS",
+        "information": "A Start One of our latest work, Desert Grove database management system, based in UAE, was first a start-up idea..."
+    }
+]

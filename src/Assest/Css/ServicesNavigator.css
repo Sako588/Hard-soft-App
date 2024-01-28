@@ -1,0 +1,30 @@
+
+.service-nav{
+width: 240px;
+}
+
+.service-nav span{
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--white);
+    padding: 0.5rem 0;
+}
+
+.service-nav ul{
+    font-size: 14px;
+    padding-left: 0.2rem;
+}
+.service-nav ul li {
+
+    padding: 0.5rem 0;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.089);
+}
+.service-nav ul li a {
+    color: var(--gray);
+}
+
+.service-nav ul li a:hover{
+    color: var(--red);
+}

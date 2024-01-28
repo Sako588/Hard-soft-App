@@ -1,0 +1,46 @@
+
+.services-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+    color: var(--white);
+}
+.services-section>h1{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.services-section>p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+.card {
+    background: inherit;
+    border: none;
+     display: flex;
+     flex-direction: row;
+     gap: 20px;
+    justify-content: start;
+    max-width: 500px;
+    padding-bottom: 1rem;
+}
+
+.card .img {
+    width: 50px;
+}
+
+.card .img img {
+    width: 100%;
+    filter: invert(13%) sepia(64%) saturate(4046%) hue-rotate(345deg) brightness(72%) contrast(105%);
+}
+
+
+.card p {
+    max-width: 450px;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding-top: 20px;
+    padding-bottom: 0.5rem;
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "Service_section_img": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1677311141/web_kiqfr2.png",
+        "Service_section_header": "Web Development",
+        "Service_section_info": "Having a website is the first step to running an online business. A user_friendly responsive website with the right flow and structure will help better convey your message and encourage visitors to take action accordingly.",
+        "Services_section_link": "/services/web-development"
+    },
+    {
+        "id": 2,
+        "Service_section_img": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1677311141/ecommerce_hh7nmr.png",
+        "Service_section_header": "Ecommerce Development",
+        "Service_section_info": "With an ecommerce solution in your website, your customers can view your storefront through their PC or mobile device at anytime and anywhere they prefer.",
+        "Services_section_link": "/services/ecommerca"
+    },
+    {
+        "id": 3,
+        "Service_section_img": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1677311141/hosting_k2gvq4.png",
+        "Service_section_header": "Hosting Services",
+        "Service_section_info": "Create stable foundations of your online business strategically, and include a secure hosting for your website, emails, and other hosting related issues.",
+        "Services_section_link": "/services/hosting"
+    },
+    {
+        "id": 4,
+        "Service_section_img": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1677311141/security_f9qrmn.png",
+        "Service_section_header": "Security Package",
+        "Service_section_info": "If you’re a business with online transactions, or collecting valuable customer information, you should consider a cyber security plan for your online business.",
+        "Services_section_link": "/services/securty-package"
+    },
+    {
+        "id": 5,
+        "Service_section_img": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1677311141/wireframe_y0dnfk.png",
+        "Service_section_header": "UI Design_Wireframing",
+        "Service_section_info": "Wireframing your application model is a set of images that will show a schematic or blueprint of your website or app, where the functions are outlined.",
+        "Services_section_link": "/services/ui-design"
+    },
+    {
+        "id": 6,
+        "Service_section_img": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1677311141/graphics_woqvii.png",
+        "Service_section_header": "Graphical Design",
+        "Service_section_info": "Get the basics of your brand, starting from your logo, company brochure and profiles, print materials such as business cards, letterheads, posters and more.",
+        "Services_section_link": "/services/graphical-design"
+    }
+]

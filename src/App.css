@@ -1,38 +1,200 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+:root {
+    --dark-gray: #1B222C;
+    --dark-grey: #12151c;
+    --gray: #939394;
+    --grey: #EAEEF0;
+    --white: #dedede;
+    --black: #12151c;
+    --red: 	#9c0205;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body {
+    background: var(--dark-gray);
+    font-family: 'Roboto', sans-serif;
+   
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.butun-seyfe {
+    position: relative;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.butun-seyfe-right {
+    left: 200px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.active {
+    color: var(--red)!important;
+    
   }
+
+/* Overlay menu start */
+
+.btn-nav {
+    color: var(--white);
+    pointer-events: none;
+    transition: all 1s linear;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bar-icon {
+    background: red;
+    position: fixed;
+    z-index: 6;
+    left: 0;
+    top: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.overlay-menu {
+    background: #ffffff84;
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    width: 0;
+    top: 0;
+    height: 100%;
+    left: 0;
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.overlay-menu-activ {
+
+    width: 100%;
 }
+
+
+.overlay-menu .overlay-list {
+    background-color: var(--dark-grey);
+    width: 200px;
+    height: 100%;
+    overflow-y: auto;
+
+
+}
+
+.bar-icon,
+.cross-icon {
+    display: none;
+    background: none;
+    border: none;
+    padding-right: 1rem;
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+.cross-icon {
+    pointer-events: none;
+}
+
+.overlay-btn-cross {
+    display: inline-block;
+    cursor: pointer;
+    width: 50%;
+    height: 100%;
+}
+
+
+
+.overlay-menu .navbar-list .nav-item {
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-bottom: 1px solid var(--gray);
+
+}
+.overlay-menu a{
+    color: var(--white);
+}
+.overlay-menu .navbar-list .nav-link {
+    transition: all 0.5s ease-in-out;
+    
+    padding: 1rem 0.5rem;
+}
+
+.arrow-icon {
+    pointer-events: none;
+}
+
+.overlay-menu .navbar-list .nav-link:hover {
+
+    color: var(--red);
+
+}
+
+.overlay-services-content {
+    display: none;
+}
+
+.aktiv-services-content {
+    display: block;
+    border-top: 1px solid var(--gray);
+}
+
+.overlay-services-content .dp-list a {
+    color: var(--white);
+    font-weight: 500;
+
+}
+
+.overlay-services-content .dp-list {
+    padding: 0.5rem 0;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+
+}
+
+.overlay-services-content .dp-list:hover {
+    background: var(--dark-gray);
+
+}
+
+
+.overlay-portfolio-content {
+    display: none;
+}
+
+.aktiv-portfolio-content {
+    display: block;
+    border-top: 1px solid var(--gray);
+}
+
+.overlay-portfolio-content .dp-list a {
+    color: var(--white);
+    font-weight: 500;
+}
+
+.overlay-portfolio-content .dp-list {
+    padding: 0.5rem 0;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+
+.overlay-portfolio-content .dp-list:hover {
+    background: var(--dark-gray);
+}
+
+
+
+@media (max-width:850px) {
+
+    .bar-icon {
+        display: block;
+    }
+
+    .cross-icon {
+        display: none;
+    }
+  
+}
+
+/* Overlay menu end */

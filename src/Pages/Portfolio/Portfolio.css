@@ -1,0 +1,47 @@
+.portfolio {
+    margin-top: 200px;
+  }
+
+  .portfolio-aside{
+    max-width: 1100px;
+    margin: 1rem auto;
+  }
+
+  .portfolio-card{
+    padding: 1rem;
+    color: var(--white);
+  }
+
+  .portfolio-card a{
+
+  margin-bottom: 0.5rem;
+  
+
+  }
+
+  .portfolio-card img {
+    border-radius: 5px;
+    width: 100%;
+  }
+  .portfolio-card img:hover {
+    width: 102%;
+    opacity: 0.2;
+  }
+
+  .portfolio-card h4{
+    padding: 0.5rem 0;
+  }
+
+  .portfolio-card span{
+   font-size: 0.9rem;
+   color: var(--grey);
+  }
+
+  @media (max-width:800px) {
+
+    .portfolio {
+        margin-top: 80px;
+        color: var(--white);
+    }
+    
+    }

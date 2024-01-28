@@ -1,0 +1,361 @@
+.about {
+    margin-top: 200px;
+    background: var(--dark-gray);
+overflow-x: hidden;
+}
+
+.about-intro {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) ,url('../Img/About/5486539.png');
+    background-position: center;
+    background-size: cover;
+    color: var(--black);
+    margin-top: 3rem;
+    padding: 5rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid var(--gray);
+    border-top: 1px solid var(--gray);
+}
+
+.about-intro h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.about-intro p {
+    font-size: 1rem;
+    max-width: 750px;
+    margin: 0 auto;
+    line-height: 1.5rem;
+    overflow: 0.95;
+    padding: 0 5em;
+}
+
+
+.about-strategy {
+    margin-top: 3rem;
+    padding: 3rem 1rem;
+    text-align: center;
+    color: var(--white);
+    background: var(--red);
+}
+
+.about-strategy h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.about-strategy p {
+    font-size: 1.2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.5rem;
+    overflow: 0.95;
+
+}
+/* Companies start*/
+.copmanies{
+    max-width: 1100px;
+    margin: 0 auto;
+  padding: 1rem;
+  border-bottom: 1px solid var(--red);
+}
+
+.copmanies h2{
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.color-red{
+    color: var(--red);
+}
+
+.companies-item{
+    color: var(--white);
+}
+
+.inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 3rem;
+    margin: 1rem 0;
+    position: relative;
+}
+
+.companies-item .inner::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    transition: all 1.2s ease;
+}
+
+.companies-item .inner::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+    transition: all 1.2s ease;
+
+}
+
+.companies-item:hover .inner::after,
+.companies-item:hover .inner::before{
+border-color: var(--red);
+width: 100%;
+height: 100%;
+}
+
+.img-companies {
+    width: 150px;
+    height: 100px;
+}
+
+.img-companies img {
+    width: 100%;
+    height: 100%;
+}
+.companies-item h3{
+    color:var(--white);
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.companies-item p{
+    color:var(--white);
+    max-width: 800px;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.companies-item span{
+    font-size: 0.9rem;
+    color: var(--red);
+}
+
+.companies-item:hover span {
+    color: blue;
+}
+
+
+/* Companies end */
+
+.different-top {
+    background: var(--dark-gray);
+    color: var(--white);
+    padding: 1rem 1rem;
+
+}
+
+.different-top .top-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--red);
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.diferentiation-left {
+    max-width: 550px;
+    padding-top: 2rem;
+}
+
+.diferentiation-left h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.diferentiation-left h5 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.diferentiation-left ul {
+    list-style: inside;
+    font-size: 1rem;
+    padding: 1rem;
+    color: var(--red);
+}
+
+.diferentiation-left p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    padding: 1rem 0;
+    font-weight: 400;
+    color: var(--gray);
+}
+
+.diferentiation-right img {
+    border-radius: 1rem;
+    width: 100%;
+}
+
+
+.different-bottom {
+    background: var(--dark-gray);
+    color: var(--white);
+    padding: 1rem 1rem;
+
+}
+
+.different-bottom .bottom-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+
+
+.different-bottom .left-side img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.different-bottom .right-side {
+    max-width: 550px;
+    padding-top: 2rem;
+}
+
+.different-bottom .right-side h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.different-bottom .right-side h5 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.different-bottom .right-side ul {
+    list-style: inside;
+    font-size: 1rem;
+    padding: 1rem;
+    color: var(--red);
+}
+
+.different-bottom .right-side p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    padding: 1rem 0;
+    color: var(--gray);
+}
+
+.testimonials{
+    margin-top: 2rem;
+}
+
+
+
+@media (max-width:1300px) {
+
+    .about-intro {
+        background-image: none;
+        background: var(--white);
+
+    }
+
+    .about-intro p {
+        padding: 0 0.5rem;
+
+    }
+}
+
+@media (max-width:1150px) {
+    .different-top .top-side {
+
+        flex-wrap: wrap;
+    }
+
+    .different-bottom .bottom-side {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .diferentiation-left {
+        max-width: 1000px;
+        padding-top: 2rem;
+    }
+    .different-bottom .right-side {
+        max-width: 1000px;
+        padding-top: 2rem;
+    }
+}
+
+
+/* Companies start*/
+@media (max-width:800px) {
+
+    .about {
+        margin-top: 100px;
+    }
+
+.companies-item{
+    padding: 1rem;
+}
+
+.inner{
+    
+    padding: 1rem 0.5rem;
+   
+}
+
+
+}
+/* Companies end */
+
+
+@media (max-width:500px) {
+
+    .inner{
+        flex-wrap: wrap;
+       justify-content: center;
+       border-bottom: 1px solid var(--red);
+    }
+
+    .about p {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .about-intro h3 {
+
+        font-size: 1.2rem;
+        line-height: 1rem;
+    }
+
+    .about-strategy h3 {
+        font-size: 1.2rem;
+    }
+}

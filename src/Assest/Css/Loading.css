@@ -1,0 +1,145 @@
+
+
+.center{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+
+.ring{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+   
+    animation: ring 5s linear infinite;
+}
+
+.ring::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+   
+}
+
+.ring-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    width:220px;
+    height: 220px;
+    border-radius: 50%;
+    
+    animation: ring-in 3s linear infinite;
+}
+
+.ring-in::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+}
+
+.ring-in-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    
+    animation: ring-in-in 5s linear infinite;
+}
+
+.ring-in-in::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+}
+
+
+.center span{
+    font-size: 1.2rem;
+    color: #737373;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+@keyframes ring{
+    0%{
+        transform: rotate(0deg);
+        box-shadow: none
+    }
+
+  50%{
+        transform: rotate(180deg);
+        box-shadow: 1px 5px 2px #013cff;
+    }
+
+
+   100%{
+        transform: rotate(360deg);
+        box-shadow: none
+}
+}
+
+@keyframes ring-in{
+    0%{
+        transform: rotate(30deg);
+        box-shadow: none
+    }
+
+   50%{
+        transform: rotate(150deg);
+        box-shadow: 1px 5px 2px #ef0505;
+    }
+
+
+   100%{
+        transform: rotate(330deg);
+        box-shadow: none
+}
+}
+
+
+@keyframes ring-in-in{
+    0%{
+        transform: rotate(60deg);
+        box-shadow: none
+    }
+
+   50%{
+        transform: rotate(210deg);
+        box-shadow: 1px 5px 2px #05ff01;
+    }
+
+
+   100%{
+        transform: rotate(300deg);
+        box-shadow: none
+}
+}

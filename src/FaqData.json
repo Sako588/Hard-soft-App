@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "group":"Cost and Payment",
+        "question": "HOW MUCH DOES A WEBSITE COST?",
+        "answer": "Every website project is unique. We offer a free service to create an estimated scope of work and budget for potential projects. We help customers identify the important factors into cost, such as design complexity, custom functionality, responsive design, and project management and training. After meeting with you to discuss your organization and website goals we will present you with a time and materials proposal that includes a written scope of work and budget estimate for the entire site."
+    },
+    {
+        "id": 2,
+        "question": "DO YOU OFFER FIXED PRICING?",
+        "answer": "We work exclusively on a time and materials model. We offer extremely careful budgeting, time tracking, reporting, as well as “do not exceed” budgets. We pride ourselves in our unique ability to accurately forecast and track costs, and deliver a final product that meets budget and scope estimates as closely as possible. With the time and materials model, you are put in the drivers seat for your budget. You are given opportunities before and during the project to control and adjust the budget to meet your organization’s needs."
+    },
+    {
+        "id": 3,
+        "question": "DO YOU REQUIRE A DEPOSIT?",
+        "answer": "Yes. A deposit of 25% of the estimated project total is required to initiate the project. We invoice monthly for work performed after the initial deposit is used, and require full payment before site launch."
+    },
+    {
+        "id": 4,
+        "question": "WHAT TYPES OF PAYMENT DO YOU ACCEPT?",
+        "answer": "We accept credit cards, checks, and cash. We have an online payment system for one-time and recurring payments."
+    },
+    {
+        "id": 5,
+        "group":"WordPress",
+        "question": "WHY DO YOU BUILD WEBSITES ON WORDPRESS?",
+        "answer": "What good is a website if you can’t use it yourself? In the old days of web development, any change to a website required a webmaster. Site owners had little to no ability to edit their sites themselves. Today, we use Content Management Systems, such as WordPress, to put the power of site editing back in your hands. With WordPress, you’ll have the ability to add, edit, and remove pages, blog posts, comments, photos, videos, and more. No programming or expensive software is required, and changes you make to your site are instantly updated. WordPress is extremely user-friendly for anyone. We like to say “If you can do it in Microsoft Word, you can do it in WordPress”."
+    },
+    {
+        "id": 6,
+        "question": "DO YOU USE TEMPLATED THEMES?",
+        "answer": "Unlike many other WordPress designers we don’t use pre-built themes templates. Your business is unique and your website should be too! We create custom designed themes for each web project. Pre-built themes do not easily scale up when a business adds a new service, line of business or product."
+    },
+    {
+        "id": 7,
+        "question": "WILL I BE ABLE TO EDIT THE CONTENT MYSELF?",
+        "answer": "Yes! We build websites on WordPress, a popular and easy-to-use content management system. With WordPress, you’ll have the ability to add, edit, and remove pages, blog posts, comments, photos, videos, and more. No programming or expensive software is required, and changes you make to your site are instantly updated. WordPress is extremely user-friendly for anyone. We like to say “If you can do it in Microsoft Word, you can do it in WordPress”. We’ve also taken WordPress to the next level with our custom “Building Blocks” technology that allows you to more easily control complex page layouts. Ask us for a demo to see how we’ve improved on WordPress’ incredible features."
+    },
+    {
+        "id": 8,
+        "group": "Timeline",
+        "question": "HOW LONG WILL IT TAKE TO COMPLETE MY SITE?",
+        "answer": "Most websites take approximately 6-12 weeks to complete. We have the capacity to do rush jobs for an additional fee. Your project manager will provide you with a project plan and important milestone dates."
+    },
+    {
+        "id": 9,
+        "question": "HOW MUCH OF MY TIME WILL THIS TAKE UP?",
+        "answer": "Your contribution to the website design process is very important but we also want to be respectful of your time. Most of our clients spend about 2-4 hours per week working with us during the duration of the project. This time includes the in-person (if possible) design meeting, review meetings, providing input, and receiving training."
+    },
+    {
+        "id": 10,
+        "question": "WILL MY SITE LOOK GOOD ON MOBILE PHONES AND TABLETS?",
+        "answer": "Yes. We add a mobile layer for your site which will look great on every device. This “responsive design” responds to the size of the device on which it’s viewed, changing layouts so visitors don’t have to pinch and zoom to read content."
+    },
+    {
+        "id": 11,
+       "group": "Web Hosting and Domain Registration",
+        "question": "DO YOU OFFER WEBSITE HOSTING?",
+        "answer": "Yes! Computer Courage is proud to offer our own Managed WordPress Hosting. Our hosting is fast, secure, always up-to-date, and worry-free. Read more at https://computercourage.com/hosting/"
+    },
+    {
+        "id": 11,
+        "question": "WHAT DOES “MANAGED SOLUTION” MEAN IN TERMS OF HOSTING?",
+        "answer": "Our solution is a managed solution – we’ll take care of everything. That means you have one source for hosting, support, performance, security, backups, and more. We’ll actively monitor your site for uptime (with reporting) and we’ll keep WordPress up to date so you don’t have to worry about (or pay for) upgrades to stay secure and get new features. On top of that, we offer some of the most powerful and fast hosting on the market today."
+    },
+    {
+        "id": 12,
+        "question": "DO YOU REGISTER DOMAIN NAMES?",
+        "answer": "We believe that a domain name is an important asset for an organization which should be fully under that organization’s control. Rather than reselling you a domain name, we’ll be more than happy help you register your own domain name through a trusted vendor."
+    }
+]

@@ -1,0 +1,13 @@
+.learn-more {
+    color: var(--red);
+    font-size: 1.1rem;}
+
+.learn-more:hover {
+    text-decoration: underline;
+    color: var(--red);
+}
+
+
+/* Acardionlar */
+/* Paradaks effekti */
+/* Hansi seyfede olsaq hemen link qirmizi olsun */

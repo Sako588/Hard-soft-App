@@ -1,0 +1,88 @@
+.fag-section {
+    margin-top: 200px;
+    color: white;
+}
+
+.akordion {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.akordion-item {
+    margin-bottom: 1rem;
+}
+
+.akordion-item h4{
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.akordion-item .item{
+    border: 1px solid var(--white);
+    border-radius: 5px;
+}
+
+.akordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2rem;
+
+}
+.akordion-item .item:hover{
+border-color: var(--red);
+}
+
+
+.akordion-item .item span{
+    font-size: 1.5rem;
+}
+.akordion-item .item:hover span{
+    color: var(--red);
+}
+
+.akordion-header h5 {
+font-size: 1rem;
+font-weight: 400;
+padding: 1rem;
+}
+
+.akordion-panel{
+    padding: 1rem;
+}
+.akordion-panel p{
+    font-size: 1rem;
+    line-height: 2rem;
+    padding-left: 0.5rem;
+    padding-bottom: 3rem;
+    
+}
+
+
+@media (max-width:800px) {
+    .fag-section {
+        margin-top: 100px;
+      
+    }
+    .akordion-item h4{
+        font-size: 1.2rem;
+        
+        margin: 1rem 0;
+    }
+    .akordion-header h5 {
+        
+        padding: 0.5rem;
+        }
+    .akordion-panel{
+        padding: 0.5rem;
+    }
+    .akordion-panel p{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        padding-bottom: 1rem;
+        
+    } 
+}

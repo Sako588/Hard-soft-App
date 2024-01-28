@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "imgPersonal": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680035033/Testimisions/Ibrahim-helmy-600x477_hxws2u.jpg",
+    "img": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680035033/Testimisions/SultanIbrahim_key95v.png",
+    "name": "Dr. Ayad Al-Mukhtar",
+    "position": "Sole Director, Telematique Limited ",
+    "comment": "Comelite IT Solutions Company has been the IT Partner for the four legal entities that I have founded and that I currently run since early 2014 when I asked them to transform the website for my law practice Iraq Lawyer into a modern robust platform based on WordPress. Nadia Kamil was the Project/Technical Manager on the Iraq Lawyer and drove the project through to completion by working closely with me the Client. Nadia and her team did a superb job on that project earning my respect and trust for their professionalism, commitment, reliability, integrity and ability to deliver.Since then Nadia and her team have successfully completed a number of web development, graphics, hosting, analytics and social media projects for me. Nadia has been and continues to be my trusted IT adviser and problem solver."
+  },
+  {
+    "id": 2,
+    "imgPersonal": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680035033/Testimisions/AyadAlMukhtar_his5gu.jpg",
+    "img": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680035033/Testimisions/SultanIbrahim_key95v.png",
+    "name": "Sultan Ibrahim",
+    "position": "Ohod Electrics",
+    "comment": "I am extremely pleased with the service I received from Comlite IT Solutions. They listened to our requirements and delivered a great website. The site is attractive, interactive, easy to navigate, simple to update and we are expecting an increase in business because of it, all thanks to Comlite IT Solutions."
+  },
+  {
+    "id": 3,
+    "imgPersonal": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680035032/Testimisions/elias-charro-600x477_cucc2b.jpg",
+    "img": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680035033/Testimisions/SultanIbrahim_key95v.png",
+    "name": "Adil Bubere",
+    "position": "CEO - Bubere’s",
+    "comment": "The first experience was the best and will always remain the same with Comelite & Team.I am glad to have Comelite IT Solutions connected.Indeed supportive as well as very effective. At first I was kind of skeptical as I am based in Saudi Arabia and the company is in UK and USA. I thought, should i trust them? I decided to take this risk after seeing all the excellent projects done by them.We did the first project and it was a hit. And we just signed a 2nd contract. I would like to thank Miss Chaimae for being the best supporter 24/7. Thank you once again.More projects to come. Best wishes.."
+  },
+  {
+    "id": 4,
+    "imgPersonal": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680035033/Testimisions/adil-bubere-600x477_iweed3.jpg",
+    "img": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680035033/Testimisions/SultanIbrahim_key95v.png",
+    "name": "Elias Charro",
+    "position": "F & B Manager Shanasheel Palace Hotel Baghdad Iraq",
+    "comment": "Many thanks for Comelite IT Solutions and for the great staff, especially Chaimae for the big support in the project. In reality we just had an idea to design a menu to describe the Iraqi culture and your company delivered more than we expected due to your great experience. Hoping to work together in more projects in the future. Thank you,."
+  },
+  {
+    "id": 5,
+    "imgPersonal": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680035033/Testimisions/SultanIbrahim_key95v.png",
+    "img": "https://res.cloudinary.com/dpjh4mjob/image/upload/v1680035033/Testimisions/SultanIbrahim_key95v.png",
+    "name": "Ibrahim Helmy",
+    "position": "Owner & Chairman",
+    "comment": "Thanks and appreciation to Comelite IT Solutions Our company “Almotaheda Co., for Supplies Integrated Contracting” was honored to work with “Comelite IT Solutions” for the website design and graphic project. Therefore, we thank Comelite IT Solutions for its professionalism, good support, accurate timing and accountability. Our company continues to work with Comelite and is looking forward to further cooperation in future projects. All appreciation and respect for Comelite IT Solutions and its teams.."
+  }
+]
